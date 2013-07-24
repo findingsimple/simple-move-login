@@ -19,7 +19,7 @@ Please note this is more to help sysadmin and devs when there is a more servious
 
 Installation is standard and straight forward. 
 
-1. Duplicate and rename wp-login.php to your desired "new" login file name e.g. `login.php` and find and replace all instances of `wp-login.php` with the new file name e.g. `login.php`. By default `login.php` is used by the plugin.
+1. Duplicate and rename `wp-login.php` to your desired "new" login file name e.g. `login.php` and find and replace all instances of `wp-login.php` with the new file name e.g. `login.php`. By default `login.php` is used by the plugin.
 2. Edit the your `wp-config.php` file and define the new login file name/path if `login.php` has not been used. e.g.  
 
 ```
