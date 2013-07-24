@@ -122,7 +122,7 @@ add_action( 'login_init', 'sml_login_init', 0 );
 function sml_set_path( $path ) {
 
 	if ( !defined( 'SML_NEW_LOGIN_PATH' ) )
-		$new_path = 'login.php'
+		$new_path = 'login.php';
 	else
 		$new_path = SML_NEW_LOGIN_PATH;
 
