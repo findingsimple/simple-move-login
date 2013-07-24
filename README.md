@@ -5,13 +5,13 @@ Requires at least: 3.5
 Tested up to: 3.5  
 Stable tag: 1.0  
 
-Utility plugin (or drop-in) for changing the location of the login page (wp-login.php).  
+Utility plugin (or drop-in) for changing the location of the login page.  
 
 ## Description ##
 
 A utility plugin (or can be used as a drop-in) for assisting with changing the location of the login page. For example changing `wp-login.php` to be `login.php`.
 
-Why do this? It assists with preventing brute force attacks that target the default wp-login.php page. 
+Why do this? It assists with preventing brute force attacks that target the default `wp-login.php` page. 
 
 Please note this is more to help sysadmin and devs when there is a more servious brute force issue. You new login.php file will need to be manually updated whenever WP is updated.
 
