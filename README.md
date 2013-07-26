@@ -7,6 +7,10 @@ Stable tag: 1.0
 
 Utility plugin (or drop-in) for changing the location of the login page.  
 
+## Goal ##
+
+A plugin, to help reduce risk of automated brute force / bot attacks against your WP site without taking up too additional resources, breaking plugins or confusing users.
+
 ## Description ##
 
 A utility plugin (or can be used as a drop-in) for assisting with changing the location of the login page. For example changing `wp-login.php` to be `login.php`.
